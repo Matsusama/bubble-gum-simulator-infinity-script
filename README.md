@@ -36,30 +36,20 @@ The **Bubble Gum Simulator INFINITY** script is an advanced automation tool for 
 2. Paste into your Lua executor (Synapse, Krnl, etc.)  
 3. Press **Inject/Execute**  
 
-```lua
--- Example snippet (replace with actual script)  
-loadstring(game:HttpGet("https://example.com/INFINITY.lua"))()  
-Last Updated: May 2025
+## ⚙️ Configuration
+Customize these settings in the script's UI:
 
-📥 Download
-Get the Latest Release
+### 🎈 Bubble Settings
+- [✓] Auto-Blow Mode
+- [ ] Smart Pop Delay
+- [✓] Instant Sell
 
-## ⚙️ Configuration  
-Customize settings via the intuitive UI:  
+### 💎 Collection
+- [✓] Coin Collector
+- [ ] Gem Vacuum (VIP)
+- [✓] Loot Magnet
 
-- [ ] Enable Auto-Blow  
-- [✓] Enable Coin Collector  
-- [ ] Enable Gem Vacuum (VIP only)  
-- [✓] Smart Pet Management  
-
-## ⚠️ Disclaimer  
-This script is provided for educational purposes only. Using automation tools may violate Roblox's Terms of Service. Use at your own risk.  
-
-## 🔄 Updates  
-We regularly update the script to:  
-
-- Add new features  
-- Improve performance  
-- Maintain compatibility  
-
-**Last Updated:** May 2025  
+### 🐾 Pets
+- [✓] Auto-Equip Best Pets
+- [ ] Auto-Upgrade Pets
+- [✓] Team Optimization
