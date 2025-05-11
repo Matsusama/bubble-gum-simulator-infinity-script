@@ -1,6 +1,6 @@
 # Bubble Gum Simulator INFINITY - Ultimate Automation Script �  
 
-![sddefault](https://github.com/user-attachments/assets/f8fccfac-1ac9-40ba-b259-46697112bb5a)
+![437989541-5094e38d-91fd-4c76-8e1f-19c0a8060527](https://github.com/user-attachments/assets/726604fe-046d-437e-ae30-13bf90fa0c77)
 
 
 ## 📌 Overview  
