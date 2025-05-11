@@ -1,6 +1,7 @@
 # Bubble Gum Simulator INFINITY - Ultimate Automation Script �  
 
-![Bubble Gum Simulator Banner](https://example.com/banner-image.png)  
+![sddefault](https://github.com/user-attachments/assets/f8fccfac-1ac9-40ba-b259-46697112bb5a)
+
 
 ## 📌 Overview  
 The **Bubble Gum Simulator INFINITY** script is an advanced automation tool for Roblox's *Bubble Gum Simulator*, designed to optimize gameplay while maintaining fairness.  
