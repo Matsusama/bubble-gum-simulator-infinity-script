@@ -1,94 +1,63 @@
---[[
-  Bubble Gum Simulator INFINITY Script
-  Version: 1.2.0
-  Last Updated: May 2025
-]]
+Bubble Gum Simulator INFINITY - Ultimate Automation Script 🎈
+Bubble Gum Simulator Banner [Replace with actual image URL]
 
-local INFINITY = {
-  Settings = {
-    AutoBlow = true,
-    AutoCollectCoins = true,
-    AutoCollectGems = false,
-    AutoSell = true,
-    PetManagement = true,
-    TeleportToBestWorld = false,
-    DebugMode = false
-  },
-  Version = "1.2.0",
-  GameID = 13822889089
-}
+📌 Overview
+The Bubble Gum Simulator INFINITY Script is a powerful automation tool designed to enhance your gameplay experience in Roblox's Bubble Gum Simulator. This script provides smart automation features while maintaining game integrity.
 
--- UI Library
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bubble Gum INFINITY", "Ocean")
+✨ Features
+🎈 Bubble Automation
+Auto-Blow System: Continuous bubble growth with optimized inflation
 
--- Main Tab
-local MainTab = Window:NewTab("Main")
-local MainSection = MainTab:NewSection("Core Features")
+Smart Pop & Reset: Automatic bubble management for maximum efficiency
 
-MainSection:NewToggle("Auto Blow Bubble", "Automatically grows your bubble", function(state)
-    INFINITY.Settings.AutoBlow = state
-    if INFINITY.Settings.DebugMode then
-        print("AutoBlow:", state)
-    end
-end)
+Instant Sell: Quick selling with optimal timing detection
 
-MainSection:NewToggle("Auto Collect Coins", "Collects all nearby coins", function(state)
-    INFINITY.Settings.AutoCollectCoins = state
-end)
+💎 Resource Collection
+Coin Collector: Intelligent pathing for maximum coin pickup
 
--- Pets Tab
-local PetsTab = Window:NewTab("Pets")
-local PetsSection = PetsTab:NewSection("Pet Management")
+Gem Vacuum: Automatic gem collection across all worlds
 
-PetsSection:NewToggle("Auto Manage Pets", "Optimizes pet equipment", function(state)
-    INFINITY.Settings.PetManagement = state
-end)
+Loot Magnet: Collects all nearby items and boosts
 
-PetsSection:NewButton("Equip Best Pets", "Equips highest value pets", function()
-    -- Pet equipping logic here
-end)
+🐾 Pet Management
+Auto-Equip Pets: Smart pet selection based on stats
 
--- World Tab
-local WorldTab = Window:NewTab("World")
-local WorldSection = WorldTab:NewSection("Navigation")
+Upgrade Assistant: Optimal upgrade path calculations
 
-WorldSection:NewToggle("Teleport to Best World", "Auto-teleports to optimal world", function(state)
-    INFINITY.Settings.TeleportToBestWorld = state
-end)
+Team Optimizer: Creates perfect pet combinations
 
--- Settings Tab
-local SettingsTab = Window:NewTab("Settings")
-local SettingsSection = SettingsTab:NewSection("Configuration")
+🌍 World Navigation
+Auto-Teleport: Fast travel between worlds
 
-SettingsSection:NewKeybind("Toggle UI", "Show/hide the interface", Enum.KeyCode.RightShift, function()
-    Library:ToggleUI()
-end)
+Island Hopper: Efficient area switching
 
-SettingsSection:NewToggle("Debug Mode", "Shows debug information", function(state)
-    INFINITY.Settings.DebugMode = state
-end)
+Reward Collector: Automatic bonus collection
 
--- Main Loop
-spawn(function()
-    while wait(0.1) do
-        if INFINITY.Settings.AutoBlow then
-            -- Auto blow logic
-            game:GetService("ReplicatedStorage").Events.BlowBubble:FireServer()
-        end
-        
-        if INFINITY.Settings.AutoCollectCoins then
-            -- Coin collection logic
-            for _,coin in pairs(game:GetService("Workspace").Coins:GetChildren()) do
-                if coin:IsA("BasePart") then
-                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = coin.CFrame
-                    wait(0.05)
-                end
-            end
-        end
-    end
-end)
+🛠️ Installation
+lua
+-- Copy the script content from INFINITY.lua
+-- Paste into your preferred executor
+-- Press Inject/Execute
+⚙️ Configuration
+Customize settings via the intuitive UI:
 
--- Init message
-print("Bubble Gum INFINITY v"..INFINITY.Version.." loaded successfully!")
-Library:Notify("INFINITY Script Activated", 5)
+[ ] Enable Auto-Blow
+[✓] Enable Coin Collector
+[ ] Enable Gem Vacuum (VIP only)
+[✓] Smart Pet Management
+⚠️ Disclaimer
+This script is provided for educational purposes only. Using automation tools may violate Roblox's Terms of Service. Use at your own risk.
+
+🔄 Updates
+We regularly update the script to:
+
+Add new features
+
+Improve performance
+
+Maintain compatibility
+
+Last Updated: May 2025
+
+📥 Download
+Get the Latest Release
